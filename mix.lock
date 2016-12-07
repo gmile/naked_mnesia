@@ -1,0 +1,5 @@
+%{"confex": {:hex, :confex, "1.4.2", "68a41392b2d3737b545b29432d898b443b0519df57c27a37a268a3139990ee7f", [:mix], []},
+  "decimal": {:hex, :decimal, "1.3.1", "157b3cedb2bfcb5359372a7766dd7a41091ad34578296e951f58a946fcab49c6", [:mix], []},
+  "ecto": {:hex, :ecto, "2.1.0-rc.4", "1421452251ae264823f73a114ffe8c82d3cd8cdc321b71dcad8a76ebbb87adf3", [:mix], [{:db_connection, "~> 1.1", [hex: :db_connection, optional: true]}, {:decimal, "~> 1.2", [hex: :decimal, optional: false]}, {:mariaex, "~> 0.8", [hex: :mariaex, optional: true]}, {:poison, "~> 2.2 or ~> 3.0", [hex: :poison, optional: true]}, {:poolboy, "~> 1.5", [hex: :poolboy, optional: false]}, {:postgrex, "~> 1.0-rc", [hex: :postgrex, optional: true]}, {:sbroker, "~> 1.0-beta", [hex: :sbroker, optional: true]}]},
+  "ecto_mnesia": {:hex, :ecto_mnesia, "0.6.0", "dea574f5922926358e0be4bd214536e79f63bf630c3d9b42354de4335c6078e4", [:mix], [{:confex, "~> 1.4", [hex: :confex, optional: false]}, {:ecto, "~> 2.1.0-rc.4", [hex: :ecto, optional: false]}]},
+  "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], []}}
